@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Sky-Services-Page/',
   plugins: [react()],
-  optimizeDeps: {
-    exclude: ['lucide-react'],
+  base: '/', // 👈 dominio personalizado usa raíz
+  build: {
+    outDir: 'dist',
+    sourcemap: false,
   },
 });
