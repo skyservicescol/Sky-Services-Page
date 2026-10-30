@@ -49,7 +49,7 @@ export default function FAQ() {
     {
       id: 'support',
       question: 'What kind of support do you provide?',
-      answer: 'We provide dedicated expert support including strategy consultation, performance reporting, direct communication channels, and ongoing optimization. Your assigned expert (like Jonathan Acevedo) is your primary point of contact.'
+      answer: 'We provide dedicated expert support including strategy consultation, performance reporting, direct communication channels, and ongoing optimization. Your assigned expert is your primary point of contact.'
     },
     {
       id: 'language',

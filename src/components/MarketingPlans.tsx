@@ -8,7 +8,6 @@ interface Plan {
   badgeColor: string;
   description: string;
   features: string[];
-  expert: string;
 }
 
 export default function MarketingPlans() {
@@ -25,8 +24,7 @@ export default function MarketingPlans() {
         'Social Media Management (1 platform)',
         'Content Creation (2 weekly stories & 2 posts per week)',
         'Performance Reporting (1 monthly summary)',
-      ],
-      expert: 'Jonathan Acevedo'
+      ]
     },
     {
       id: 'normal',
@@ -38,8 +36,7 @@ export default function MarketingPlans() {
         'Social Media Management (2 platforms)',
         'Content Creation (4 weekly stories + 3 posts + 1 reel/carousel every 2 weeks)',
         'Performance Reporting (Twice a month)',
-      ],
-      expert: 'Jonathan Acevedo'
+      ]
     },
     {
       id: 'pro',
@@ -51,8 +48,7 @@ export default function MarketingPlans() {
         'Full social strategy & management',
         'Content Creation (4 weekly stories + 4 posts + 2 reels/carousels per week)',
         'Performance Reporting (Every week)',
-      ],
-      expert: 'Jonathan Acevedo'
+      ]
     }
   ];
 
@@ -108,11 +104,6 @@ export default function MarketingPlans() {
                         <p className="text-gray-300 text-sm">{feature}</p>
                       </div>
                     ))}
-                  </div>
-
-                  <div className="border-t border-slate-700 pt-6">
-                    <p className="text-center text-gray-500 text-sm mb-4">Expert in charge</p>
-                    <p className="text-center font-semibold text-white">{plan.expert}</p>
                   </div>
 
                   <button
